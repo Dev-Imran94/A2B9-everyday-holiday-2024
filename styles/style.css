@@ -1,6 +1,94 @@
-/* Shared Styles */
-*{
+/*  <<< mulish font from google fonts >>> */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+/* <<< shared styles >>> */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.text-lightgray {
+    color: #727272;
+}
+
+.section-title {
+    font-size: 2.8rem;
+    color: #131313;
+    font-weight: 700;
+}
+
+.btn-praimary {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* header related styles */
+
+header {
+    background: #FFF; 
+    padding: 50px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+nav li a {
+    color: #424247;
+    text-decoration: none;
+}
+
+h3 .holiday-head{
+    color: #FF5400;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.section-title {
+    color: #131318;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+/* banner styles */
+
+.banner-content {
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFF;
+    position: absolute;
+    z-index: 1;
+}
+
+.banner-img {
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    object-fit: cover;
 }
