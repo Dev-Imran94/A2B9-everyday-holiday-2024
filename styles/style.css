@@ -24,18 +24,17 @@
     border-radius: 8px;
     background: #FF5400;
     padding: 20px 25px;
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 700;
     border: none;
     color: #FFF;
     cursor: pointer;
-    margin-top: 20px;
 }
 
 /* header related styles */
 
 header {
-    background: #FFF; 
+    background: #FFF;
     padding: 50px 50px;
 }
 
@@ -61,7 +60,7 @@ nav li a {
     text-decoration: none;
 }
 
-h3 .holiday-head{
+h3 .holiday-head {
     color: #FF5400;
     font-weight: 800;
     font-size: 36px;
@@ -71,19 +70,25 @@ h3 .holiday-head{
     color: #131318;
     font-weight: 800;
     font-size: 36px;
+    position: relative;
+    left: 80px;
+}
+
+.logo {
+    position: relative;
+    right: 450px;
 }
 
 /* banner styles */
 
 .banner-content {
-    align-items: center;
-    justify-content: center;
-    max-width: 600px;
     text-align: center;
-    margin: 0 auto;
+    padding: 80px 80px;
+    margin-left: 80px;
+    margin-top: 100px;
     color: #FFF;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
 }
 
 .banner-img {
@@ -91,4 +96,9 @@ h3 .holiday-head{
     width: 100%;
     align-items: center;
     object-fit: cover;
+}
+
+.banner-title {
+    font-weight: 800;
+    font-size: 60px;
 }
