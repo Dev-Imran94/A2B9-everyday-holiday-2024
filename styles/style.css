@@ -76,7 +76,7 @@ h3 .holiday-head {
 
 .logo {
     position: relative;
-    right: 450px;
+    right: 460px;
 }
 
 /* banner styles */
@@ -127,4 +127,11 @@ form {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+.footer-content {
+    width: 800px;
+margin: 0, auto;
+    align-items: center;
+    justify-content: center;
 }
